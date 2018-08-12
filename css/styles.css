@@ -1,0 +1,270 @@
+:root {
+
+}
+
+* {
+	padding: 0;
+	margin: 0;
+	border: 0;
+	outline: none;
+	box-sizing: border-box;
+	transition: all .3s ease-in-out;
+}
+
+img {
+	max-width: 100%;
+	height: auto;
+}
+
+body, html {
+	min-height: 100%;
+	width: 100%;
+}
+
+.clear::after, .clear::before {
+	content: " ";
+	display: table;
+}
+
+.clear::after {
+	clear: both;
+}
+
+/* Main Styles */
+
+
+body{
+	font: 300 24px/1.5 'Roboto', sans-serif;
+	background: #eeeeee;
+	color: #303030;
+}
+
+.container {
+    width: 85%;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+.header {
+	height: 720px;
+	text-align: center;
+}
+
+.navigation {
+	overflow: hidden;
+	padding: 0;
+	left: 0;
+	top: 0;
+	z-index: 2;
+	width: 100%;
+}
+
+.header-logo {
+	float: left;
+	font: 900 48px Roboto, sans-serif;
+    color: #303030;
+	text-decoration: none;
+	padding: 10px;
+}
+
+.header-logo:hover {
+	transform: scale(1.1);
+}
+
+.menu-header {
+	float: right;
+}
+
+.menu-header li{
+	display: inline-block;
+    margin: 0 20px;
+	padding: 25px 0;
+    text-decoration: none;
+}
+
+
+.menu-header li a {
+	color: #636363;
+	font: 400 18px Roboto, sans-serif;
+	text-decoration: none;
+}
+
+.menu-header li a:hover {
+	color: green;
+}
+
+.slider {
+	padding: 10px 0px;
+	position: relative;
+}
+
+
+.slider-text {
+	width: 50%;
+	display: inline-block;
+	text-align: right;
+}
+
+.slider-text h1 {
+	font: 900 150px/1 Raleway, sans-serif;
+    text-transform: uppercase;
+}
+
+.slider-text p {
+	font: 300 24px/1.5 Roboto, sans-serif;
+    padding-left: 38px;
+    padding-bottom: 10px;
+}
+
+.slider-text a {
+	font: 900 24px/1.5 Roboto, sans-serif;
+	color: #e10011;
+	text-decoration: none;
+}
+
+.headphones__image {
+	display: inline-block;
+	width: 48%;
+}
+
+.slider__pagination {
+	margin: 0 auto;
+	padding: 85px 0;
+}
+
+.slider__pagination ul {
+	text-align: center;
+	font-size: 0;
+}
+
+.slider__pagination li {
+	display: inline-block;
+    height: 12px;
+    width: 12px;
+    border-radius: 6px;
+    background-color: #303030;
+    margin-left: 10px;
+}
+
+.slider__pagination li:first-child {
+    background-color: #e10011;
+    margin-left: 0;
+}
+
+.main {
+	height: 1190px;
+	background: #ffffff;
+    margin: 0 auto;
+    margin-top: 100px;
+}
+
+.title {
+	text-align: center;
+	padding-top: 100px;
+}
+
+.featured-product {
+	font: 900 48px Raleway, sans-serif;
+}
+
+.featured-description {
+    margin: 0 auto;
+    font: 400 18px/1.3 Raleway, sans-serif;
+    color: #303030;
+}
+
+.product {
+    background: blue;
+}
+
+.product__item {
+    display: inline-block;
+    cursor: pointer;
+}
+
+.product__item--width-60 {
+	width: 60%;
+
+}
+
+.product__item--width-30 {
+	width: 30%;
+}
+
+.footer {
+    height: 605px;
+    margin: 0 auto;
+    margin: 0 auto;
+    width: 745px;
+    padding: 0;
+}
+
+.footer-title {
+    padding-top: 100px;
+    padding-bottom: 20px;
+    text-transform: uppercase;
+    font: 900 48px Raleway, sans-serif;
+}
+
+.footer-description {
+    font: 400 18px/1.3 Raleway, sans-serif;
+    padding-bottom: 40px;
+}
+
+.footer-form {
+    display: inline-block;
+    margin: 0 auto;
+    width: 550px;
+    line-height: 70px;
+    background: #fff;
+    border-radius: 30px 30px;
+    font-size: 18px;
+    margin-bottom: 105px;
+    text-align: left;
+}
+
+[for="subscribe-input"] {
+    color: #979797;
+    padding-left: 34px;
+    padding-right: 15px;
+}
+
+input[type="email"]::placeholder {
+    font-family:raleway, sans-serif;
+    font-style: italic;
+    font-weight: 500;
+}
+
+.subscribe-button {
+    float: right;
+    width: 205px;
+    height: 70px;
+    background: #e10011;
+    border-bottom-right-radius: 30px 36px;
+    border-top-right-radius: 30px 36px;
+    text-transform: uppercase;
+    color: #fff;
+    font-family: Roboto, sans-serif;
+    font-weight: 900;
+    cursor: pointer;
+}
+
+.subscribe-button:hover {
+    background: #690800;
+}
+.footer-links {
+    display: inline-block;
+    margin-right: 20px;
+}
+
+
+.footer p:last-of-type {
+    color:#979797;
+    margin-bottom: 28px;
+}
+
+.footer-last {
+    text-decoration: none;
+    color: #303030;
+}
+
